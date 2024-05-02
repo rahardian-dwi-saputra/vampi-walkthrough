@@ -4,3 +4,6 @@ Terkadang developer API tidak memikirkan sensitivitas data yang diekspos. Alat o
 curl http://IP_Server:5000/users/v1/_debug --proxy http://127.0.0.1:8080
 ```
 
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/excessive%20data%20exposure/sensitive%201.JPG)
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/excessive%20data%20exposure/sensitive%202.JPG)
