@@ -38,10 +38,12 @@ curl http://<IP_Server>:5000
 ![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/4.JPG)
 
 ## Lesson
+- [SQLi Injection](SQL%20Injection.md)
 - [Unauthorized Password Change](Unathorized%20Password%20Change.md)
 - [Broken Object Level Authorization](Broken%20Object%20Level%20Authorization.md)
 - [Mass Assignment](Mass%20Assigment.md)
 - [Excessive Data Exposure](Excessive%20Data%20Exposure.md)
+- [User and Password Enumeration](User%20and%20Password%20Enumeration.md)
 
 ## Disclaimer
 Semua materi yang disajikan disini hanya digunakan sebagai media pembelajaran. Penulis tidak bertanggung jawab atas penyalahgunaan dari materi tersebut
