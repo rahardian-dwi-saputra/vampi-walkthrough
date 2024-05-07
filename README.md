@@ -44,6 +44,8 @@ curl http://<IP_Server>:5000
 - [Mass Assignment](Mass%20Assigment.md)
 - [Excessive Data Exposure](Excessive%20Data%20Exposure.md)
 - [User and Password Enumeration](User%20and%20Password%20Enumeration.md)
+- [RegexDOS (Denial of Service)](RegexDOS.md)
+- [Lack of Resources & Rate Limiting](Lack%20of%20Resources%20and%20Rate%20Limiting.md)
 
 ## Disclaimer
 Semua materi yang disajikan disini hanya digunakan sebagai media pembelajaran. Penulis tidak bertanggung jawab atas penyalahgunaan dari materi tersebut

