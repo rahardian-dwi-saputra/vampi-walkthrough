@@ -7,35 +7,41 @@ Vampi adalah REST API yang rentan dengan kerentanan OWASP top 10 untuk pengujian
 ```sh
 git clone https://github.com/erev0s/VAmPI.git
 ```
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/1.JPG)
+
 - Instalasi depedensi
 ```sh
 cd VAmPI
 pip3 install -r requirements.txt
 ```
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/2.JPG)
+
 - Install plugin untuk swagger ui
 ```sh
 pip3 install connexion[swagger-ui]
 ```
 
-![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/1.JPG)
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/3.JPG)
 
 - Menjalankan API
 ```sh
 python3 app.py
 ```
 
-![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/2.JPG)
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/4.JPG)
 
 - Untuk dokumentasi API bisa diakses di `http://<IP_Server>:5000/ui`
 
-![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/3.JPG)
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/5.JPG)
 
 - Uji coba API di kali linux
 ```sh
 curl http://<IP_Server>:5000
 ```
 
-![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/4.JPG)
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/6.JPG)
 
 ## Lesson
 - [SQLi Injection](SQL%20Injection.md)
