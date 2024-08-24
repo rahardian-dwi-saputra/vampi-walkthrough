@@ -43,6 +43,20 @@ curl http://<IP_Server>:5000
 
 ![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/6.JPG)
 
+- Akses endpoint `/createdb` untuk membuat data
+```sh
+curl http://<IP_Server>:5000/createdb
+```
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/7.JPG)
+
+- Buat akun baru untuk mengakses API
+```sh
+curl http://IP_Server:5000/users/v1/register -d '{"email":"userapi@test.com","username":"userapi","password":"12345"}' -H 'Content-Type: application/json'
+```
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/instalasi/8.JPG)
+
 ## Lesson
 - [SQLi Injection](SQL%20Injection.md)
 - [Unauthorized Password Change](Unathorized%20Password%20Change.md)
