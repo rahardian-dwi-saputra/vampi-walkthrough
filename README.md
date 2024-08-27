@@ -2,6 +2,10 @@
 Vampi adalah REST API yang rentan dengan kerentanan OWASP top 10 untuk pengujian keamanan
 - Link: https://github.com/erev0s/VAmPI
 
+## Arsitektur Lab
+
+![alt text](https://github.com/rahardian-dwi-saputra/vampi-walkthrough/blob/main/assets/arsitektur%20lab.png)
+
 ## Instalasi di Ubuntu
 - Cloning repositori
 ```sh
